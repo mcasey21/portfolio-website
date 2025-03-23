@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="projects_stylesheet.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="White-text Port-title">Port</h1>
+        <h1 class="Cyan-text Folio-title">folio</h1>
+
+        <a class="White-text Home-link" href="index.html">HOME</a>
+        <a class="Cyan-text About-link" href="aboutme.html">ABOUT ME</a>
+        <a class="White-text Projects-link" href="projects.html">PROJECTS</a>
+        <a class="Cyan-text Contact-link" href="contactme.html">CONTACT ME</a>
+    </header>
+
+    <div class="container">
+        <h1><span class="White-text">My</span> <span class="Cyan-text">Projects</span></h1>
+        <div class="directory">
+            <div class="folder" onclick="toggle('project1')">📁 Login-Auth System</div>
+            <div id="project1" class="sub-items">
+                <div class="file" onclick="toggle('desc1')">📄 Description</div>
+                <div id="desc1" class="file-content">Built a login and authentication system.
+                    Used Python, Tkinter, and custom encryption.
+                    Features an interface and modular design.</div>
+                <div class="file" onclick="toggle('img1')">🖼️ Images</div>
+                <div id="img1" class="file-content">
+                    <img src="Login_Page.png" width="100" height="100">
+                    <img src="account_page.png" width="100" height="100">
+                </div>
+                <div class="file">🔗 <a href="https://github.com/mcasey21/LoginAuthProject" style="color: cyan; text-decoration: none;">Link</a></div>
+            </div>
+            
+            <div class="folder" onclick="toggle('project2')">📁 SK8 Game</div>
+            <div id="project2" class="sub-items">
+                <div class="file" onclick="toggle('desc2')">📄 Description</div>
+                <div id="desc2" class="file-content">SK8 is a skateboarding microgame project.
+                    Built using ST Nucleo-L031K6 and LCD screen.
+                    Jump obstacles, avoid collisions, and score!</div>
+                <div class="file" onclick="toggle('img2')">🖼️ Images</div>
+                <div id="img2" class="file-content">
+                    <img src="sk8_img.png" width="140" height="100">
+                </div>
+                <div class="file">🔗 <a href="https://github.com/mcasey21/Hardware" style="color: cyan; text-decoration: none;">Link</a></div>
+            </div>
+            
+            <div class="folder" onclick="toggle('project3')">📁 CoinFlip Data Analysis</div>
+            <div id="project3" class="sub-items">
+                <div class="file" onclick="toggle('desc3')">📄 Description</div>
+                <div id="desc3" class="file-content">Coinflip Data Project with 3 modes.
+                    Uses Python for data cleaning and analysis.
+                    Visualizes results with graphs in Matplotlib.</div>
+                <div class="file" onclick="toggle('img3')">🖼️ Images</div>
+                <div id="img3" class="file-content">
+                    <img src="tails_graph.png" width="120" height="100">
+                    <img src="rnd_graph.png" width="120" height="100">
+                </div>
+                <div class="file">🔗 <a href="https://github.com/mcasey21/CoinFlip_Data_Project" style="color: cyan; text-decoration: none;">Link</a></div>
+            </div>
+
+            <div class="folder" onclick="toggle('project4')">📁 2 Player Game</div>
+            <div id="project4" class="sub-items">
+                <div class="file" onclick="toggle('desc4')">📄 Description</div>
+                <div id="desc4" class="file-content">2-player spaceship game in Python's Ursina.
+                    Shoot asteroids and battle other players.
+                    Includes obstacles, win screen, and fun!</div>
+                <div class="file" onclick="toggle('img4')">🖼️ Images</div>
+                <div id="img4" class="file-content">
+                    <img src="game_screen.png" width="120" height="100">
+                    <img src="win_screen.png" width="120" height="100">
+                </div>
+                <div class="file">🔗 <a href="https://github.com/mcasey21/UrsinaEngine" style="color: cyan; text-decoration: none;">Link</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggle(id)
+        {
+            var element = document.getElementById(id);
+            if (element.style.display === "none" || element.style.display === "")
+            {
+                element.style.display = "flex";
+            } 
+            else
+            {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

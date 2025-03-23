@@ -1,0 +1,289 @@
+.main-header {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Cyan-text {
+    color: cyan;
+    font-family: monospace;
+    position: relative;
+}
+
+.White-text {
+    color: white;
+    font-family: monospace;
+    position: relative;
+}
+
+
+.Port-title {
+    font-size: 4rem;
+    top: -3rem;
+    left: 3vw;
+}
+
+.Folio-title {
+    font-size: 2.5rem;
+    top: -9rem;
+    left: 13.5vw;
+}
+
+.Home-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 33vw;
+    text-decoration: none;
+}
+
+.About-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 38vw;
+    text-decoration: none;
+}
+
+.Projects-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 43vw;
+    text-decoration: none;
+}
+
+.Contact-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 48vw;
+    text-decoration: none;
+}
+
+.Home-link:hover {
+    color: grey;
+}
+
+.Projects-link:hover {
+    color: grey;
+}
+
+.About-link:hover {
+    color: darkcyan;
+}
+
+.Contact-link:hover {
+    color: darkcyan;
+}
+
+.About-text {
+    font-size: 400%;
+    top: -805px;
+    left: 710px;
+}
+
+.Me-text {
+    font-size: 250%;
+    top: -883px;
+    left: 855px;
+}
+
+.pic {
+    position: relative;
+    top: -200px;
+    height: 650px;
+}
+
+/* Parent to info rectangles */
+.Cyan-rect{
+    width: 600px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    left: 320px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+
+/* Myself section */
+
+.Myself-rect {
+    position: relative;
+    top: 100px;
+    left: 320px;
+}
+
+.Myself-rect:hover {
+    width: 600px;
+    height: 150px;
+    background-color: cyan;
+    border-radius: 15px;
+}
+
+
+.Myself-title {
+    color: white;
+    font-family: monospace;
+    font-size: 250%;
+    position: relative;
+    top: -20px;
+    left: 240px;
+}
+
+.Myself-text {
+    color: black;
+    font-family: monospace;
+    position: relative;
+    top: -30px;
+    left: 75px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.Myself-rect:hover .Myself-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Education section */
+
+.Education-rect {
+    position: relative;
+    top: 120px;
+    left: 320px;
+}
+
+.Education-rect:hover {
+    width: 600px;
+    height: 150px;
+    background-color: cyan;
+    border-radius: 15px;
+}
+
+.Education-title {
+    color: white;
+    font-family: monospace;
+    font-size: 250%;
+    position: relative;
+    top: -20px;
+    left: 215px;
+}
+
+.Education-text {
+    color: black;
+    font-family: monospace;
+    position: relative;
+    top: -30px;
+    left: 75px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.Education-rect:hover .Education-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Work section */
+
+.Work-rect {
+    position: relative;
+    top: 140px;
+    left: 320px;
+}
+
+.Work-rect:hover {
+    width: 600px;
+    height: 170px;
+    background-color: cyan;
+    border-radius: 15px;
+}
+
+.Work-title {
+    color: white;
+    font-family: monospace;
+    font-size: 250%;
+    position: relative;
+    top: -20px;
+    left: 255px;
+}
+
+.Work-text {
+    color: black;
+    font-family: monospace;
+    position: relative;
+    top: -30px;
+    left: 75px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.Work-rect:hover .Work-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Skills section */
+
+.Skills-rect {
+    position: relative;
+    top: 160px;
+    left: 320px;
+}
+
+.Skills-rect:hover {
+    width: 600px;
+    height: 140px;
+    background-color: cyan;
+    border-radius: 15px;
+}
+
+.Skills-title {
+    color: white;
+    font-family: monospace;
+    font-size: 250%;
+    position: relative;
+    top: -20px;
+    left: 240px;
+}
+
+.Skills-text {
+    color: black;
+    font-family: monospace;
+    position: relative;
+    top: -30px;
+    left: 75px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.Skills-rect:hover .Skills-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+section {
+    position: relative;
+    top: -980px;
+    left: 180px;
+}

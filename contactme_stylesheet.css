@@ -1,0 +1,144 @@
+.main-header {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Cyan-text {
+    color: cyan;
+    font-family: monospace;
+    position: relative;
+}
+
+.White-text {
+    color: white;
+    font-family: monospace;
+    position: relative;
+}
+
+
+.Port-title {
+    font-size: 4rem;
+    top: -3rem;
+    left: 3vw;
+}
+
+.Folio-title {
+    font-size: 2.5rem;
+    top: -9rem;
+    left: 13.5vw;
+}
+
+.Home-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 33vw;
+    text-decoration: none;
+}
+
+.About-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 38vw;
+    text-decoration: none;
+}
+
+.Projects-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 43vw;
+    text-decoration: none;
+}
+
+.Contact-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 48vw;
+    text-decoration: none;
+}
+
+.Home-link:hover {
+    color: grey;
+}
+
+.Projects-link:hover {
+    color: grey;
+}
+
+.About-link:hover {
+    color: darkcyan;
+}
+
+.Contact-link:hover {
+    color: darkcyan;
+}
+
+.Cyan-rect {
+    width: 500px;
+    height: 360px; 
+    background-color: cyan;
+    position: absolute;
+    top: 245px;
+    left: 370px;
+    z-index: -1;
+}
+
+.Contact {
+    font-size: 400%;
+    top: -140px;
+    left: 500px;
+}
+
+.Me {
+    font-size: 250%;
+    top: -218px;
+    left: 700px;
+}
+
+.Your-name-box {
+    position: relative;
+    top: -230px;
+    left: 465px;
+    font-size: 130%;
+    font-family: monospace;
+    width: 300px;
+}
+
+.Your-email-box {
+    position: relative;
+    top: -170px;
+    left: 152px;
+    font-size: 130%;
+    font-family: monospace;
+    width: 300px;
+}
+
+.Your-message-box {
+    position: relative;
+    top: -20px;
+    left: -159px;
+    font-size: 130%;
+    font-family: monospace;
+    width: 300px;
+    resize: none;
+}
+
+button {
+    position: relative;
+    top: 35px;
+    left: -370px;
+}
+

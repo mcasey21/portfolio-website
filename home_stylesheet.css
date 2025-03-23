@@ -1,0 +1,193 @@
+.main-header {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Cyan-text {
+    color: cyan;
+    font-family: monospace;
+    position: relative;
+}
+
+.White-text {
+    color: white;
+    font-family: monospace;
+    position: relative;
+}
+
+
+.Port-title {
+    font-size: 4rem;
+    top: -3rem;
+    left: 3vw;
+}
+
+.Folio-title {
+    font-size: 2.5rem;
+    top: -9rem;
+    left: 13.5vw;
+}
+
+.Home-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 33vw;
+    text-decoration: none;
+}
+
+.About-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 38vw;
+    text-decoration: none;
+}
+
+.Projects-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 43vw;
+    text-decoration: none;
+}
+
+.Contact-link {
+    font-size: 2rem;
+    top: -13.2rem;
+    left: 48vw;
+    text-decoration: none;
+}
+
+.Home-link:hover {
+    color: grey;
+}
+
+.Projects-link:hover {
+    color: grey;
+}
+
+.About-link:hover {
+    color: darkcyan;
+}
+
+.Contact-link:hover {
+    color: darkcyan;
+}
+
+.Intro-text {
+    font-size: 1.7rem;
+    left: 5vw;
+    top: -6rem;
+}
+
+.First-name {
+    font-size: 4.5rem;
+    left: 5vw;
+    top: -8.5rem;
+}
+
+.Second-name {
+    font-size: 4.5rem;
+    top: -16.7rem;
+    left: 28vw;
+}
+
+.Student-white {
+    font-size: 1.7rem;
+    left: 5vw;
+    top: -19.5rem;
+}
+
+.Student-cyan {
+    font-size: 1.7rem;
+    left: 12vw;
+    top: -22.6rem;
+}
+
+.Circle {
+    z-index: -1;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: cyan;
+    border-radius: 50%;
+    position: relative;
+}
+
+.Github-circle {
+    top: -22.5rem;
+    left: 5vw;
+}
+
+.LinkedIn-circle {
+    top: -28.5rem;
+    left: 12vw;
+}
+
+.Icon {
+    width: 2.625rem;
+    height: 2.625rem;
+    position: relative;
+}
+
+.Github-icon {
+    top: -25.4rem;
+    left: 5.32vw;
+    filter: invert(0);
+}
+
+.LinkedIn-icon {
+    top: -32rem;
+    left: 11.7vw;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+}
+
+.Download-btn {
+    background-color: cyan;
+    font-family: monospace;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: black;
+    padding: 0.3rem 0.9375rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+    position: relative;
+    top: -33.15rem;
+    left: 14vw;
+}
+
+.Download-btn:hover {
+    background-color: darkcyan;
+}
+
+.Circle-pic {
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: cyan;
+    border-radius: 50%;
+    position: relative;
+    top: -78.25rem;
+    left: 60vw;
+}
+
+.Me-photo {
+    z-index: +1;
+    position: relative;
+    top: -54.6rem;
+    left: 58.5vw;
+    height: 28.125rem;
+    clip-path: circle(9.4rem at center);
+}

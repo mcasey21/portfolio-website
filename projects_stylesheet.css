@@ -1,0 +1,157 @@
+/* General Styles */
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: left;
+}
+
+.container {
+    width: 60%;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+
+.Cyan-text {
+    color: cyan;
+    font-family: monospace;
+    position: relative;
+}
+
+.White-text {
+    color: white;
+    font-family: monospace;
+    position: relative;
+}
+
+
+.Port-title {
+    font-size: 400%;
+    top: -245px;
+    left: -140px;
+}
+
+.Folio-title {
+    font-size: 250%;
+    top: -288px;
+    left: -38px;
+}
+
+.Home-link {
+    font-size: 200%;
+    top: -332px;
+    left: 370px;
+    text-decoration: none;
+}
+
+.About-link {
+    font-size: 200%;
+    top: -332px;
+    left: 420px;
+    text-decoration: none;
+}
+
+.Projects-link {
+    font-size: 200%;
+    top: -332px;
+    left: 470px;
+    text-decoration: none;
+}
+
+.Contact-link {
+    font-size: 200%;
+    top: -332px;
+    left: 520px;
+    text-decoration: none;
+}
+
+.Home-link:hover {
+    color: grey;
+}
+
+.Projects-link:hover {
+    color: grey;
+}
+
+.About-link:hover {
+    color: darkcyan;
+}
+
+.Contact-link:hover {
+    color: darkcyan;
+}
+
+.My-text {
+    font-family: monospace;
+}
+
+.Projects-text {
+    font-family: monospace;
+    position: relative;
+    top: -47px;
+    left: 40px;
+}
+
+/* Directory Styles */
+.directory {
+    padding-left: 40px;
+    border-left: 3px solid #61dafb;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.folder {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.folder:hover {
+    color: grey;
+}
+
+.sub-items {
+    padding-left: 20px;
+    border-left: 2px solid #61dafb;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.file {
+    color: cyan;
+    font-size: 1em;
+    cursor: pointer;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.file:hover {
+    color: darkcyan;
+}
+
+.file-content {
+    padding-left: 40px;
+    font-size: 0.9em;
+    color: #ffffff;
+    display: none;
+}
